@@ -8,8 +8,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function(){
-    let element = document.img.innerHTML
-    return element = element + ("class = tasty");
+    return img.addClass();'tasty'
   })
 }
 
