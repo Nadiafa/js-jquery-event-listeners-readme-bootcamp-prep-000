@@ -1,7 +1,7 @@
 //define functions here
 
 function getIt() {
-  ${'p'}.on('eventname', function(){
+  ${'p'}.on('click', function(){
     alert "Hey!"
   });
 }
@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 // call functions here
 
-getIt('click');
+getIt();
 });
 
 
