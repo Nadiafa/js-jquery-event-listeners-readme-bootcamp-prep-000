@@ -6,6 +6,12 @@ function getIt() {
   })
 }
 
+function frameIt() {
+  $('img').on('load', function(){
+    return document.
+  })
+}
+
 
 $(document).ready(function(){
 
@@ -15,10 +21,6 @@ $(document).ready(function(){
 
 
 
-
-// 1) Selectors getIt() binds a click event to the paragraph:
-//   TypeError: window.getIt is not a function
-//     at Context.<anonymous> (test/index-test.js:5:12)
 
 // 2) Selectors frameIt() binds an event that frames the minion when the page loads:
 //   TypeError: window.frameIt is not a function
