@@ -18,7 +18,7 @@ function pressIt() {
       alert ('You have pressed G');
     }
     
-  })
+  });
 }
 
 $(document).ready(function(){
