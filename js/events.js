@@ -21,6 +21,12 @@ function pressIt() {
   });
 }
 
+function submitIt() {
+  $('form').on('submit', function(){
+    alert("");
+  });
+}
+
 $(document).ready(function(){
 
 // call functions here
@@ -32,9 +38,6 @@ $(document).ready(function(){
 //   TypeError: window.submitIt is not a function
 //     at Context.<anonymous> (test/index-test.js:51:12)
 
-// 4) Selectors pressIt() pressIt() binds an event that alerts the user when theG key was pressed down:
-//   TypeError: window.pressIt is not a function
-//     at Context.<anonymous> (test/index-test.js:26:14)
 
 // 5) Selectors pressIt() does not alert if another key is pressed:
 //   TypeError: window.pressIt is not a function
